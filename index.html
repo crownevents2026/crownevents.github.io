@@ -47,6 +47,7 @@ a{
     margin:auto;
 }
 
+
 /* ================= HEADER ================= */
 
 header{
@@ -88,6 +89,7 @@ nav a:hover{
     color:var(--gold);
 }
 
+
 /* ================= HERO ================= */
 
 .hero{
@@ -98,7 +100,6 @@ nav a:hover{
     text-align:center;
     position:relative;
     overflow:hidden;
-
     background:
     radial-gradient(
         circle at center,
@@ -196,6 +197,7 @@ nav a:hover{
     color:#000;
 }
 
+
 /* ================= GENERAL SECTIONS ================= */
 
 section{
@@ -225,6 +227,7 @@ section{
     color:var(--grey);
     font-family:Arial,sans-serif;
 }
+
 
 /* ================= ABOUT ================= */
 
@@ -268,6 +271,7 @@ section{
     font-size:28px;
 }
 
+
 /* ================= SERVICES ================= */
 
 .services-grid{
@@ -306,6 +310,21 @@ section{
     font-size:14px;
 }
 
+
+/* ================= VISUALS ================= */
+
+#visuals .service-card{
+    padding:30px 25px;
+}
+
+#visuals .service-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    display:block;
+}
+
+
 /* ================= PACKAGES ================= */
 
 .packages{
@@ -333,12 +352,6 @@ section{
     font-size:23px;
 }
 
-.price{
-    font-size:24px;
-    font-weight:bold;
-    margin:8px 0 18px;
-}
-
 .package ul{
     padding-left:20px;
     color:#c8c8c8;
@@ -349,6 +362,7 @@ section{
 .package li{
     margin:6px 0;
 }
+
 
 /* ================= CONTACT ================= */
 
@@ -398,6 +412,7 @@ section{
     gap:12px;
 }
 
+
 /* ================= FOOTER ================= */
 
 footer{
@@ -412,6 +427,7 @@ footer{
 footer strong{
     color:var(--gold);
 }
+
 
 /* ================= WHATSAPP ================= */
 
@@ -432,6 +448,7 @@ footer strong{
     z-index:100;
     box-shadow:0 5px 25px rgba(0,0,0,.5);
 }
+
 
 /* ================= MOBILE ================= */
 
@@ -501,6 +518,7 @@ footer strong{
 
 <body>
 
+
 <!-- ================= HEADER ================= -->
 
 <header>
@@ -517,6 +535,7 @@ footer strong{
 <a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#services">Services</a>
+<a href="#visuals">Visuals</a>
 <a href="#packages">Packages</a>
 <a href="#contact">Contact</a>
 </nav>
@@ -658,56 +677,133 @@ Complete event solutions for celebrations in Brahmapur.
 
 
 <div class="service-card">
+
 <div class="service-number">01</div>
+
 <h3>Wedding Planning</h3>
+
 <p>
 Planning and coordination for wedding celebrations and functions.
 </p>
+
 </div>
 
 
 <div class="service-card">
+
 <div class="service-number">02</div>
+
 <h3>Theme Decoration</h3>
+
 <p>
 Stage, entrance, backdrop, floral and complete venue decoration.
 </p>
+
 </div>
 
 
 <div class="service-card">
+
 <div class="service-number">03</div>
+
 <h3>Lighting & Sound</h3>
+
 <p>
 Ambience lighting, DJ, sound setup and event electronics.
 </p>
+
 </div>
 
 
 <div class="service-card">
+
 <div class="service-number">04</div>
+
 <h3>Entertainment</h3>
+
 <p>
 Anchor, DJ, singers, live band, orchestra and other entertainment.
 </p>
+
 </div>
 
 
 <div class="service-card">
+
 <div class="service-number">05</div>
+
 <h3>Special Effects</h3>
+
 <p>
 Cold pyro, dry ice, paper confetti, sky shot and themed entries.
 </p>
+
 </div>
 
 
 <div class="service-card">
+
 <div class="service-number">06</div>
+
 <h3>Event Support</h3>
+
 <p>
 Security, welcome girls, Punjabi dhol, procession and event support.
 </p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= VISUALS ================= -->
+
+<section id="visuals">
+
+<div class="container">
+
+<div class="section-heading">
+
+<small>Our Office</small>
+
+<h2>Visuals</h2>
+
+<p>
+A glimpse of the Crown Events office.
+</p>
+
+</div>
+
+
+<div class="services-grid">
+
+
+<div class="service-card">
+
+<img src="images/office-1.jpg"
+     alt="Crown Events Office">
+
+</div>
+
+
+<div class="service-card">
+
+<img src="images/office-2.jpg"
+     alt="Crown Events Office">
+
+</div>
+
+
+<div class="service-card">
+
+<img src="images/office-3.jpg"
+     alt="Crown Events Office">
+
 </div>
 
 
@@ -744,11 +840,8 @@ Selected packages from the current Crown Events brochure.
 
 <h3>Day Event</h3>
 
-<div class="price">
-₹2,50,000
-</div>
-
 <ul>
+
 <li>Tent structural design</li>
 <li>Passing main gate to venue</li>
 <li>Entrance gate</li>
@@ -763,6 +856,7 @@ Selected packages from the current Crown Events brochure.
 <li>Security guard</li>
 <li>Punjabi Dhol</li>
 <li>2 welcome girls</li>
+
 </ul>
 
 </div>
@@ -772,11 +866,8 @@ Selected packages from the current Crown Events brochure.
 
 <h3>Evening Event</h3>
 
-<div class="price">
-₹3,20,000
-</div>
-
 <ul>
+
 <li>6:00 PM to Midnight</li>
 <li>Tent structural design</li>
 <li>Passing main gate to venue</li>
@@ -793,6 +884,7 @@ Selected packages from the current Crown Events brochure.
 <li>Bride & Groom Entry</li>
 <li>Cold Pyro</li>
 <li>Dry Ice</li>
+
 </ul>
 
 </div>
@@ -802,11 +894,8 @@ Selected packages from the current Crown Events brochure.
 
 <h3>Haldi Package</h3>
 
-<div class="price">
-₹60,000
-</div>
-
 <ul>
+
 <li>12×8 Stage with backdrop</li>
 <li>15×45 Structural setup</li>
 <li>Artificial Marigold theme</li>
@@ -814,6 +903,7 @@ Selected packages from the current Crown Events brochure.
 <li>Mobile pin connection</li>
 <li>Flex stand</li>
 <li>Steel chairs</li>
+
 </ul>
 
 </div>
@@ -823,11 +913,8 @@ Selected packages from the current Crown Events brochure.
 
 <h3>Sangeet Package</h3>
 
-<div class="price">
-₹1,40,000
-</div>
-
 <ul>
+
 <li>Stage with backdrop</li>
 <li>Couple sitting Deewan</li>
 <li>Stage light</li>
@@ -838,6 +925,7 @@ Selected packages from the current Crown Events brochure.
 <li>6 round tables</li>
 <li>Local DJ & Anchor</li>
 <li>Flex stand</li>
+
 </ul>
 
 </div>
@@ -847,14 +935,12 @@ Selected packages from the current Crown Events brochure.
 
 <h3>Day & Night Event</h3>
 
-<div class="price">
-₹3,55,000
-</div>
-
 <ul>
+
 <li>Bedi & reception stage decoration</li>
 <li>Day & night event setup</li>
 <li>Complete decoration package</li>
+
 </ul>
 
 </div>
@@ -864,16 +950,14 @@ Selected packages from the current Crown Events brochure.
 
 <h3>Extra Effects</h3>
 
-<div class="price">
-On Requirement
-</div>
-
 <ul>
+
 <li>Cold Pyro</li>
 <li>Dry Ice</li>
 <li>Paper Confetti</li>
 <li>Day-out Sky Shot</li>
 <li>Barmala Theme Entry</li>
+
 </ul>
 
 </div>
@@ -941,7 +1025,6 @@ Contact Information
 WHATSAPP
 </a>
 
-
 <a class="btn btn-primary"
    href="https://www.instagram.com/_crownevents/"
    target="_blank">
@@ -978,10 +1061,9 @@ Odisha 760001
 <a class="btn btn-primary"
    href="https://www.google.com/maps/dir/?api=1&destination=Meenashi+Nagar,+4th+Ln,+in+front+of+Mahamayi+College,+Brahmapur,+Odisha+760001"
    target="_blank">
-
 GET DIRECTIONS
-
 </a>
+
 
 </div>
 
